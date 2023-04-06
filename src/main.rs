@@ -1,7 +1,7 @@
 // Import the necessary modules
 use rayon::prelude::*;
 use std::env;
-use std::sync::atomic::{AtomicBool, AtomicU32, Ordering};
+use std::sync::atomic::{AtomicBool, Ordering};
 use std::time::Instant;
 use tiny_keccak::{Hasher, Keccak};
 
