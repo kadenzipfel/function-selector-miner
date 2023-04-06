@@ -10,4 +10,8 @@ cd func-sel-miner
 cargo run <function name> <function params> <leading zeroes>
 ```
 
-e.g. `cargo run "cat" "(address,uint256)" 2` outputs `Function selector: 0000bd80, Signature: cat69753(address,uint256)`
+e.g. `cargo run "cat" "(address,uint256)" 3` outputs:
+```
+Function selector: 0000002e, Signature: cat7826901(address,uint256)
+Time taken: 12.12071 seconds
+```
