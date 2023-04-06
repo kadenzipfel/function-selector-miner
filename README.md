@@ -1,6 +1,6 @@
 ## About
 
-A quick and dirty function selector miner written in Rust.
+Blazingly fast function selector miner written in Rust.
 
 ## Usage
 
