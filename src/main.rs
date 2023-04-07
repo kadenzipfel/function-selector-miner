@@ -27,7 +27,7 @@ fn mine_function_selector(
 ) -> Option<(u32, String, String)> {
     let mut nonce = nonce_start;
     while nonce < MAX_NONCE && !found.load(Ordering::Relaxed) {
-        let input = format!("{}{}{}", name, nonce, params);
+        let input = format!("{}{}{}{}{}", name, nonce, '(', params, ')');
         let hash = keccak256(input.as_bytes());
         let selector = &hash[..4];
 
