@@ -6,7 +6,7 @@ Blazingly fast function selector miner written in Rust.
 
 ```
 git clone git@github.com:kadenzipfel/func-sel-miner.git
-cd func-sel-miner
+cd function-selector-miner
 cargo run <function name> <function params> <leading zeroes>
 ```
 
